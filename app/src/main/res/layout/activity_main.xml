@@ -23,4 +23,14 @@
         android:id="@+id/buttonMain"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
+    <LinearLayout
+        android:layout_below="@id/buttonMain"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <fragment
+            android:name="com.example.admin.fragmentdata.FragmentAndroid"
+            android:id="@+id/fragmentAndroid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
 </RelativeLayout>
